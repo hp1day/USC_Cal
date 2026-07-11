@@ -1,0 +1,17 @@
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# Git & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Temporary folder
+tmp/
+temp/
