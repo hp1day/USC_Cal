@@ -1,6 +1,6 @@
-# Consolidated UofSC Academic Calendar Hub (2025–2030)
+# Consolidated UofSC Academic Calendar Hub (2026–2030)
 
-An elegant, single-page web application that brings together the official academic calendars of the **University of South Carolina (Columbia Campus)** for the years **2025 through 2030** (covering academic years 2025–26, 2026–27, 2027–28, 2028–29, and 2029–30).
+An elegant, single-page web application that brings together the official academic calendars of the **University of South Carolina (Columbia Campus)** for the years **2026 through 2030** (covering academic years 2026–27, 2027–28, 2028–29, and 2029–30).
 
 This application was designed to replace the standard multi-page university registrar lists with a single consolidated, ultra-fast, premium experience tailored for students, faculty, and administrators.
 
@@ -8,7 +8,7 @@ This application was designed to replace the standard multi-page university regi
 
 ## 🌟 Premium Features
 
-- **Consolidated Dashboard**: Switch instantly between academic years (2025–2030) using high-fidelity tabs.
+- **Consolidated Dashboard**: Switch instantly between academic years (2026–2030) using high-fidelity tabs.
 - **Dual Visual Modes**:
   - **Card Grid Layout**: Semesters (Fall, Spring, Summer) and supporting documents (Registration, Exams, Payments) presented as beautiful glassmorphic columns.
   - **Chronological Timeline**: An active, unified vertical timeline mapping all events across the selected academic year step-by-step.

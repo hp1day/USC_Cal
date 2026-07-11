@@ -1,6 +1,6 @@
 /* -------------------------------------------------------------
    Carolinas Calendar Hub - Consolidated Academic Calendar Logic
-   University of South Carolina (2025-2030)
+   University of South Carolina (2026-2030)
    ------------------------------------------------------------- */
 
 // State Management
@@ -481,7 +481,7 @@ function startCountdownTimer() {
   if (!nextEvent) {
     // Fallback if no future events found in range
     document.getElementById('countdownTarget').textContent = "All semesters concluded";
-    document.getElementById('countdownDate').textContent = "Calendars 2025–2030 are complete!";
+    document.getElementById('countdownDate').textContent = "Calendars 2026–2030 are complete!";
     return;
   }
 
