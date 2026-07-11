@@ -180,7 +180,7 @@ function setTheme(theme) {
 }
 
 function renderYearTabs() {
-  const years = [...new Set(CALENDAR_DATA.map(d => d.academic_year))].sort();
+  const years = [...new Set(CALENDAR_DATA.map(d => d.academic_year))].filter(yr => yr !== '2025-26').sort();
   const tabsContainer = document.getElementById('yearTabs');
   if (!tabsContainer) return;
 
@@ -189,7 +189,7 @@ function renderYearTabs() {
     const btn = document.createElement('button');
     btn.className = `year-tab ${STATE.activeYear === yr ? 'active' : ''}`;
     btn.setAttribute('data-year', yr);
-    btn.textContent = `20${yr.replace('-', '–')}`;
+    btn.textContent = yr.replace('-', '–');
     btn.addEventListener('click', () => {
       document.querySelectorAll('.year-tab').forEach(t => t.classList.remove('active'));
       btn.classList.add('active');
@@ -270,7 +270,7 @@ function renderGridView(yearData, container) {
   if (STATE.searchQuery) {
     const searchHeader = document.createElement('div');
     searchHeader.className = 'search-results-info';
-    searchHeader.innerHTML = `Showing results matching "<span>${STATE.searchQuery}</span>" across 20${STATE.activeYear.replace('-', '–')}`;
+    searchHeader.innerHTML = `Showing results matching "<span>${STATE.searchQuery}</span>" across ${STATE.activeYear.replace('-', '–')}`;
     container.appendChild(searchHeader);
   }
 
